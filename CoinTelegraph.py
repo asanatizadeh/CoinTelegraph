@@ -4,9 +4,8 @@ from selenium import webdriver as wd
 from selenium.webdriver import ActionChains
 from tqdm import tqdm
 
-# https://chromedriver.chromium.org/downloads
 
-chrome_driver_path = '/Users/hamid/PycharmProjects/cointelegraph/chromedriver'
+chrome_driver_path = 'chromedriver path'
 
 chrome_options = wd.ChromeOptions()
 chrome_options.add_argument('--headless')
